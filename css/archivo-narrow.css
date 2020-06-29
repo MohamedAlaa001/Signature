@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'ArchivoNarrowBold';
+        src: url('/assets/fonts/archivo-narrow/670092d441e4e200e60b24ea7c7198c0/9c684c002a7b0a4026dff65dd1dcf53d/ArchivoNarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'ArchivoNarrowBoldItalic';
+        src: url('/assets/fonts/archivo-narrow/670092d441e4e200e60b24ea7c7198c0/855228eb3231f88595cf79762ce67e64/ArchivoNarrowBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'ArchivoNarrowItalic';
+        src: url('/assets/fonts/archivo-narrow/670092d441e4e200e60b24ea7c7198c0/70e6fc88bac017e8b39461afa9cdff89/ArchivoNarrowItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'ArchivoNarrowRegular';
+        src: url('/assets/fonts/archivo-narrow/670092d441e4e200e60b24ea7c7198c0/95e850f587bf5c9ef83d5d14ef86644c/ArchivoNarrowRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'Archivo Narrow';
+        src: url('/assets/fonts/archivo-narrow/670092d441e4e200e60b24ea7c7198c0/9c684c002a7b0a4026dff65dd1dcf53d/ArchivoNarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Archivo Narrow';
+        src: url('/assets/fonts/archivo-narrow/670092d441e4e200e60b24ea7c7198c0/855228eb3231f88595cf79762ce67e64/ArchivoNarrowBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Archivo Narrow';
+        src: url('/assets/fonts/archivo-narrow/670092d441e4e200e60b24ea7c7198c0/70e6fc88bac017e8b39461afa9cdff89/ArchivoNarrowItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Archivo Narrow';
+        src: url('/assets/fonts/archivo-narrow/670092d441e4e200e60b24ea7c7198c0/95e850f587bf5c9ef83d5d14ef86644c/ArchivoNarrowRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
