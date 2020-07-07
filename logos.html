@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<title>Los Santos Emergency Medical Services</title>
+	<link rel="icon" href="images/favicon.png" type="image">
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/logos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"> 
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="index.html"><img src="images/lsems.png" style="width: 50px; height: 50px;" alt=""></a>
+                <h3>Los Santos Emergency Medical Services</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="index.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Signatures</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="lt-sign.html">Command +</a>
+                        </li>
+                        <li>
+                            <a href="md-sign.html">Medical Department</a>
+                        </li>
+                        <li>
+                            <a href="fire-sign.html">Fire Department</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="header.html">Header</a>
+                </li>
+                <li>
+                    <a href="title.html">Title</a>
+                </li>
+                <li class="active">
+                    <a href="logos.html">Department Logos</a>
+                </li>
+            </ul>
+               <div class="credits">
+                  <p>Credits: Stax#0276</p>
+                  <p>Credits: Ryko#3493</p>
+              </div>
+                
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                   <ul class="navUl">
+                        <li><button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                            <i class="fas fa-align-left"></i>
+                        </button></li>
+                        <li><h3>Department Logos</h3></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+            </div>
+            <div class="row">
+                <div class="col-md-3 form-group" >
+                   <img src="images/HR.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                   <label class="imgC">HR</label>
+                   <textarea id="t1" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t1);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/HR.png[/img]</textarea>
+                </div>
+
+                <div class="col-md-3 form-group">
+                   <img src="images/BLS.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS"> 
+                   <label class="imgC">BLS</label>
+                   <textarea id="t2" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t2);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/BLS.png[/img]</textarea>
+                </div>
+
+                <div class="col-md-3 form-group"> 
+                   <img src="images/comm.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS"> 
+                   <label class="imgC">COMMUNICATIONS</label>
+                   <textarea id="t3" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t3);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/comm.png[/img]</textarea>
+                </div>
+
+                <div class="col-md-3 form-group">
+                   <img src="images/IA.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                   <label class="imgC">INTERNAL AFFAIRS</label>
+                   <textarea id="t4" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t4);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/IA.png[/img]</textarea>
+                </div>
+                
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 form-group">
+                   <img src="images/FTP.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                    <label class="imgC">FTP</label>
+                    <textarea id="t5" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t5);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/FTP.png[/img]</textarea>    
+                </div>
+
+                <div class="col-md-3 form-group">
+                   <img src="images/psych.png" class="rounded-circle imgC" style="height: 100px;width: 100px" alt="LSEMS">
+                   <label class="imgC">PYSHCOLOGY</label>
+                   <textarea id="t6" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t6);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/psych.png[/img]</textarea>
+                </div>
+
+                <div class="col-md-3 form-group">
+                   <img src="images/forensics.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                   <label class="imgC">Forensics</label>
+                   <textarea id="t7" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t7);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/forensics.png[/img]</textarea>
+                </div>
+
+                <div class="col-md-3 form-group">
+                   <img src="images/audit.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                   <label class="imgC">AUDIT</label>
+                   <textarea id="t8" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t8);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/audit.png[/img]</textarea>
+                </div>
+
+            </div>
+            
+            <div class="row">
+                <div class="col-md-3 form-group">
+                   <img src="images/fireNrescue.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                   <label class="imgC">FIRE & RESCUE</label>
+                   <textarea id="t9"  class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t9);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/fireNrescue.png[/img]</textarea>    
+                </div>
+
+                <div class="col-md-3 form-group">
+                   <img src="images/fireNsafety.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                   <label class="imgC">FIRE & SAFETY</label>
+                   <textarea id="t10" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t10);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/fireNsafety.png[/img]</textarea>
+                </div>
+
+                <div class="col-md-3 form-group">
+                   <img src="images/air.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                   <label class="imgC">AIR & RESCUE</label>
+                   <textarea id="t11" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t11);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/air.png[/img]</textarea>
+                </div>
+
+                <div class="col-md-3 form-group">
+                   <img src="images/lifeg.png" class="rounded-circle imgC" style="height: 100px; width: 100px;" alt="LSEMS">
+                   <label class="imgC">LIFEGUARD</label>
+                   <textarea id="t12" class="form-control rounded-0" rows="1" name="text" onclick="this.focus();this.select();copy(t12);" readonly="readonly">[img]https://imgscri.be/images/2020/07/04/lifeg.png[/img]</textarea>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+        $(document).ready(function(){
+            $('#sidebar').toggleClass('active');
+        });
+        
+        function copy(tempId){
+            var textId = document.getElementById('tempId');
+            document.execCommand("Copy");
+        }
+    </script>
+</body>
+
+</html>
